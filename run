@@ -1,0 +1,4 @@
+export PKG_CONFIG_PATH=/opt/local/lib/pkgconfig
+export LD_LIBRARY_PATH=/opt/local/lib
+g++ -bind_at_load `pkg-config --cflags opencv` main.c -o Percept `pkg-config --libs opencv`
+./Percept
