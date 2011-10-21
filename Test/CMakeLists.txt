@@ -1,0 +1,6 @@
+#Top-Level CmakeLists.txt
+
+PROJECT(PERCEPT)
+
+ADD_SUBDIRECTORY( src )
+ADD_SUBDIRECTORY( Test )
