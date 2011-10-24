@@ -1,0 +1,1 @@
+#include <stdio.h>#include "lucas.h"int main(void){    char key;    printf("Welcome to Percept Demo App.\n\n1.  Lucas\n2.   DepthMap\n\nEnter: ");    scanf("%c",&key);    switch(key)    {        case '1':        {            Lucas(640, 480);        }        default:        {            printf("Exiting.");        }    }}
