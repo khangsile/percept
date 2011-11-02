@@ -1,0 +1,1 @@
+#ifndef __percept_H#define __percept_H#include "percept.cpp"int initPercept(int, int, char*, CvCapture**);int exitPercept();#endif
