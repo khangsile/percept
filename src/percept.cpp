@@ -44,6 +44,7 @@ int initPercept(int givenWidth, int givenHeight, char* source, CvCapture **input
 
 int exitPercept()
 {
+    
     printf("\nPercept exit.");
     
     return 0;
