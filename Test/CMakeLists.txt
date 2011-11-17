@@ -1,6 +1,8 @@
-#Top-Level CmakeLists.txt
+#CmakeLists.txt in test dir
 
-PROJECT(PERCEPT)
+include_directories(${CMAKEDEMO_SOURCE_DIR}/src)
+link_directories(${CMAKEDEMO_BINARY_DIR}/src)
 
-ADD_SUBDIRECTORY( src )
-ADD_SUBDIRECTORY( Test )
+#the one Cpp file
+add_executable(TestApp testapp.cpp)
+TARGET_LINK_LIBRARIES( TestApp ${OpenCV_LIBS} )
