@@ -10,4 +10,4 @@ find_package(OpenCV)
 set(CMAKE_CXX_FLAGS "-g -Wall")
 
 ADD_SUBDIRECTORY( src )
-#ADD_SUBDIRECTORY( Test )
+ADD_SUBDIRECTORY( Test )
