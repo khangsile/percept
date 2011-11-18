@@ -35,6 +35,8 @@ cd build
 cmake ..
 make
 
+Now, you may find some Demo Unix executable files in /build/Test. 
+
 2.1.2	Other method
 -----------------------------
 export PKG_CONFIG_PATH=/opt/local/lib/pkgconfig
@@ -53,5 +55,9 @@ and then run the code like this:
 
 1)	Developer Tools 
 2)	OpenCV
+3)	OpenGL*
+4)	PCL*
+
+*In future Versions.
 
 EOF

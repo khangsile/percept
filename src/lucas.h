@@ -1,1 +1,1 @@
-#ifndef __lucas_H#define __lucas_H#include "lucasShow.cpp"#include "lucas.cpp"pcMatrixPercept LucasPercept(double totalTime, int maxPoints, CvCapture**);int LucasPerceptShow(double totalTime, int maxPoints, CvCapture**);#endif
+#ifndef __lucas_H#define __lucas_H#include "lucasShow.cpp"#include "lucas.cpp"int LucasPercept(double totalTime, int maxPoints, CvCapture**, pcMatrixPercept*);int LucasPerceptShow(double totalTime, int maxPoints, CvCapture**);#endif
