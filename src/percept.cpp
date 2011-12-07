@@ -37,7 +37,7 @@ int initPercept(int givenWidth, int givenHeight, char* source, CvCapture **input
     
     cvSetCaptureProperty(*input_video, CV_CAP_PROP_FRAME_HEIGHT, givenHeight);
     
-    printf("\nPercept initialized..");
+    printf("\nPercept initialized..\n");
     
     return 0;
 }
@@ -45,7 +45,7 @@ int initPercept(int givenWidth, int givenHeight, char* source, CvCapture **input
 int exitPercept()
 {
     
-    printf("\nPercept exit.");
+    printf("\nPercept exit.\n");
     
     return 0;
 }
