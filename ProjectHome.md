@@ -1,0 +1,3 @@
+Inspired by human ability to generate depth from visual cues either monocular or binocular, it is desired to develop a generalized toolkit, a platform to support the need of depth of the real space to infinite possible applications in various forms such as depth-map, 3D interest cloud or even a mesh.
+
+We plan to use **OpenCV** and **PCL** as our dependencies. Currently we are focusing on monocular cues (optical flow) to generate a depth map in real time from a typical camera generally found in Notebooks, PDAs, and smart phones or in the form of a webcam.
